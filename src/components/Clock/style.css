@@ -1,0 +1,32 @@
+.welcome{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.welcome .space{
+    width: 170px;
+}
+
+.welcome h2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome .info{
+    display: inline !important;
+}
+
+.welcome p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px !important;
+    font-weight: bolder;
+    color: rgb(51,54,77)
+}
+
+.welcome .info{
+    text-align: center;
+}
